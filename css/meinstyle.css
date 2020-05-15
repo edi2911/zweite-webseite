@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+/* content delivery network */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1560px;
+  font-family: "Roboto", sans-serif;
+  background: #f4fdfc;
+  color: #2699bc;
+}
+
+section.bg1 {
+  width: 2340px;
+  height: 1058px;
+  background: #b3e3ef;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+section.bg1 section.lenkrad {
+  display: flex;
+  font-size: 36px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-around;
+  width: 220px;
+  margin: 78px 0 0 100px;
+}
+
+section.bg1 nav ul {
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  display: flex;
+  list-style: none;
+  width: 1140px;
+  justify-content: space-around;
+  margin: 78px 100px 0 0;
+}
+
+section.bg1 nav ul li a {
+  text-decoration: none;
+  color: #2699bc;
+}
+
+section.text {
+  margin: -766px 0 0 99px;
+}
+
+section.text div.sgro {
+  font-size: 120px;
+  color: #f4fdfc;
+}
+
+section.text div.skle {
+  font-size: 30px;
+  line-height: 45px;
+  margin-top: 60px;
+}
+
+section.artwork {
+  display: flex;
+  margin: -350px 12px 0 958px;
+}
+
+section.sm {
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  font-size: 36px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
